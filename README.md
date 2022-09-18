@@ -11,6 +11,6 @@ pip3 install -r requirements.txt
 ```
 ## Start Server
 ```
-waitress-serve --listen=*:8000 main:app
+waitress-serve --listen=*:8000 app:app
 ```
 
